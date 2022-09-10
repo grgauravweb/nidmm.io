@@ -1,20 +1,16 @@
-import './App.css';
-import Nav from './components/Nav';
-import Homebanner from './components/Homebanner';
-import Footer from './components/Footer';
-import Cards from './components/Cards';
-import Why from './components/Why';
-import Form from './components/Form';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import About from "./pages/About";
+
 function App() {
   return (
-    <div>
-      <Nav/>
-      <Homebanner/>
-      <Cards/>
-      <Why/>
-      <Form/>
-      <Footer/>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   );
 }
 
