@@ -1,0 +1,16 @@
+.bg-light{
+    background-color: #00000000!important;
+}
+.bg-dark{
+    background-color: #191d1f!important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255);
+}
+.navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 18px;
+}
+.nav-item{
+    padding-left: 35px;
+}

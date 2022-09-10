@@ -1,0 +1,46 @@
+footer{
+    background-color: #191d1f;
+    color:rgb(255, 255, 255);
+    font-size:16px;
+    padding-top: 10px;
+}
+.fa-facebook {
+    color: white;
+    border-radius: 50px;
+}
+.fa-instagram {
+    color: white;
+    border-radius: 50px;
+}
+.fa-twitter {
+    color: white;
+    border-radius: 50px;
+}
+.fa-phone {
+    color: white;
+    border-radius: 50px;
+}
+.fa-map-marker {
+    color: white;
+    border-radius: 50px;
+}
+.fa-envelope {
+    color: white;
+    border-radius: 50px;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 72px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .social{
+    display:inline-block;
+  }
+.course li{
+    margin-bottom: 20px;
+}
+.row{
+    --bs-gutter-x: 0;
+}
